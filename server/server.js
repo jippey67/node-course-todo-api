@@ -47,7 +47,7 @@ app.get('/todos/:id', (req, res) => {
 
 });
 
-app.listen($port, () => {
+app.listen(port, () => {
 	console.log(`started listening on ${port}`);
 });
 
